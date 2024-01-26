@@ -5,7 +5,6 @@ import mainstyles from './mainstyle.module.css'
 
 export default function Home() {
   return (
-    <div>
       <Head>
         <title>고물이의 게임공장</title>
         <link rel="icon" href="/favicon.ico" />
@@ -83,9 +82,5 @@ export default function Home() {
             </div>
         </div>
       </main>
-    
-    </div>
-
-  
   )
 }
