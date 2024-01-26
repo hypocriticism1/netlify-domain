@@ -15,6 +15,9 @@ export default function Home() {
         <div className={mainstyles.homepageart}>
             <img src="/images/homepageart.jpg"></img>
         </div>
+        <div className={mainstyles.profileimage}>
+            <img src="profile.jpg">
+        </div>
         <h2 className={mainstyles.head_2}>고물이의 게임공장 홈페이지</h2>
         <div className={mainstyles.abouttext}>
             <p>여기는 게임개발봇 고물이가 운영하는 홈페이지입니다.</p>
