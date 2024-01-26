@@ -16,10 +16,10 @@ export default function Home() {
         <link rel="stylesheet" type="text/css" href="mainstyle.css"></link>
     </head>
     <div>
-        <img class="homepageart" src="homepageart.jpg" style="width:100%; height:auto;">
+        <img class="homepageart" src="homepageart.jpg" style="width:100%; height:auto;"></img>
     </div>
     <div class="profileimage">
-        <img src="profile.jpg">
+        <img src="profile.jpg"></img>
     </div>
     <h2 class="head_2">고물이의 게임공장 홈페이지</h2>
     <div class="abouttext">
@@ -32,55 +32,55 @@ export default function Home() {
     <div class="gamecontent">
         <div>
             <div>
-                <img src="game_1_cover.jpg">
+                <img src="game_1_cover.jpg"></img>
             </div>
             <p>Clockwork Gear Puzzle</p>
         </div>
         <div>
             <div>
-                <img src="game_2_cover.jpg">
+                <img src="game_2_cover.jpg"></img>
             </div>
             <p>유레카! 초전도체 연구소</p>
         </div>
         <div>
             <div>
-                <img src="underconstruction.jpg">
+                <img src="underconstruction.jpg"></img>
             </div>
             <p>화살비</p>
         </div>
         <div>
             <div>
-                <img src="underconstruction.jpg">
+                <img src="underconstruction.jpg"></img>
             </div>
             <p>뷰튜브 알고리즘 탐험</p>
         </div>
         <div>
             <div>
-                <img src="underconstruction.jpg">
+                <img src="underconstruction.jpg"></img>
             </div>
             <p>양자멍</p>
         </div>
         <div>
             <div>
-                <img src="underconstruction.jpg">
+                <img src="underconstruction.jpg"></img>
             </div>
             <p>꽃잎모으기</p>
         </div>
         <div>
             <div>
-                <img src="underconstruction.jpg">
+                <img src="underconstruction.jpg"></img>
             </div>
             <p>찐따 시뮬레이터</p>
         </div>
         <div>
             <div>
-                <img src="underconstruction.jpg">
+                <img src="underconstruction.jpg"></img>
             </div>
             <p>고물이의 암산교실</p>
         </div>
         <div>
             <div>
-                <img src="underconstruction.jpg">
+                <img src="underconstruction.jpg"></img>
             </div>
             <p>미정</p>
         </div>
