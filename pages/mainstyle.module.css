@@ -24,10 +24,14 @@
 .profileimage
 {
     display:flex;
-    width:25px;
-    height:auto;
     justify-content:center;
     padding-top: 20px;
+}
+
+.profileimage>img
+{
+    width:25px;
+    height:auto;
 }
 
 .abouttext>p{
