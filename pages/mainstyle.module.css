@@ -19,6 +19,7 @@
 .profileimage
 {
     display:flex;
+    width:auto;
     height: 100px;
     justify-content:center;
     padding-top: 20px;
