@@ -10,6 +10,12 @@
     font-family: 'NanumSquare';
 }
 
+.homepageart
+{
+    width: 100%;
+    height: auto;
+}
+
 .profileimage
 {
     display:flex;
