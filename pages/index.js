@@ -12,8 +12,8 @@ export default function Home() {
         <link rel="stylesheet" type="text/css" href="mainstyle.css"></link>
       </Head>
       <main>
-        <div>
-            <img class="homepageart" src="/images/homepageart.jpg"></img>
+        <div class="homepageart">
+            <img src="/images/homepageart.jpg"></img>
         </div>
         <h2 class="head_2">고물이의 게임공장 홈페이지</h2>
         <div class="abouttext">
