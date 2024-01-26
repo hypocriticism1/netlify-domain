@@ -74,7 +74,7 @@ export default function Home() {
             </div>
             <div>
                 <div>
-                    <img src="/images/underconstruction.jpg">
+                    <img src="/images/underconstruction.jpg"></img>
                 </div>
                 <p>미정</p>
             </div>
