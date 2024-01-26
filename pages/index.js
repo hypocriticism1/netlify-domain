@@ -29,11 +29,11 @@ export default function Home() {
         <div className={mainstyles.gamecontent}>
             <div>
                 <div>
-                    <a href="https://play.google.com/store/apps/details?id=com.GomulGames.BlindWatchmaker">
+                    <a href="https://play.google.com/store/apps/details?id=com.GomulGames.BlindWatchmaker" target="_blank">
                     <img src="/images/game_1_cover.jpg" alt="https://play.google.com/store/apps/details?id=com.GomulGames.BlindWatchmaker" title="Clockwork Gear Puzzle"></img>
                     </a>
                 </div>
-                <a href="https://play.google.com/store/apps/details?id=com.GomulGames.BlindWatchmaker"><p>Clockwork Gear Puzzle</p></a>
+                <a href="https://play.google.com/store/apps/details?id=com.GomulGames.BlindWatchmaker" target="_blank"><p>Clockwork Gear Puzzle</p></a>
             </div>
             <div>
                 <div>
