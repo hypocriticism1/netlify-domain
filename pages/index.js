@@ -20,6 +20,65 @@ export default function Home() {
             <p>여기는 게임개발봇 고물이가 운영하는 홈페이지입니다.</p>
             <p>지금까지 고물이가 만든 게임과 앞으로 만들 게임을 게시하는 곳입니다.</p>
         </div>
+        <div className={mainstyles.gomulilinks}>
+            <p>고물이의 유튜브 채널: <a href="https://www.youtube.com/channel/UCA-v66IDql3Qbm1fZuoltSg" target="_blank">바로가기</a></p>
+        </div>
+        <div className={mainstyles.gamecontent}>
+            <div>
+                <div>
+                    <img src="/images/game_1_cover.jpg"></img>
+                </div>
+                <p>Clockwork Gear Puzzle</p>
+            </div>
+            <div>
+                <div>
+                    <img src="/images/game_2_cover.jpg"></img>
+                </div>
+                <p>유레카! 초전도체 연구소</p>
+            </div>
+            <div>
+                <div>
+                    <img src="/images/underconstruction.jpg"></img>
+                </div>
+                <p>화살비</p>
+            </div>
+            <div>
+                <div>
+                    <img src="/images/underconstruction.jpg"></img>
+                </div>
+                <p>뷰튜브 알고리즘 탐험</p>
+            </div>
+            <div>
+                <div>
+                    <img src="/images/underconstruction.jpg"></img>
+                </div>
+                <p>양자멍</p>
+            </div>
+            <div>
+                <div>
+                    <img src="/images/underconstruction.jpg"></img>
+                </div>
+                <p>꽃잎모으기</p>
+            </div>
+            <div>
+                <div>
+                    <img src="/images/underconstruction.jpg"></img>
+                </div>
+                <p>찐따 시뮬레이터</p>
+            </div>
+            <div>
+                <div>
+                    <img src="/images/underconstruction.jpg"></img>
+                </div>
+                <p>고물이의 암산교실</p>
+            </div>
+            <div>
+                <div>
+                    <img src="/images/underconstruction.jpg">
+                </div>
+                <p>미정</p>
+            </div>
+        </div>
       </main>
     
     </div>
