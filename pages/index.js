@@ -9,6 +9,9 @@ export default function Home() {
         <title>고물이의 게임공장</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <main>
+        
+      </main>
     </Footer>
     </div>
 
