@@ -10,6 +10,11 @@
     font-family: 'NanumSquare';
 }
 
+.homepageart
+{
+    display: flex;
+}
+
 .homepageart>img
 {
     width: 90%;
@@ -19,8 +24,8 @@
 .profileimage
 {
     display:flex;
-    width:auto;
-    height: 100px;
+    width:100px;
+    height:auto;
     justify-content:center;
     padding-top: 20px;
 }
