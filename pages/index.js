@@ -29,13 +29,13 @@ export default function Home() {
         <div className={mainstyles.gamecontent}>
             <div>
                 <div>
-                    <img src="/images/game_1_cover.jpg" alt="게임 이미지 1"></img>
+                    <img src="/images/game_1_cover.jpg" alt="https://play.google.com/store/apps/details?id=com.GomulGames.BlindWatchmaker" title="Clockwork Gear Puzzle" href="https://play.google.com/store/apps/details?id=com.GomulGames.BlindWatchmaker"></img>
                 </div>
-                <p>Clockwork Gear Puzzle</p>
+                <p href="https://play.google.com/store/apps/details?id=com.GomulGames.BlindWatchmaker">Clockwork Gear Puzzle</p>
             </div>
             <div>
                 <div>
-                    <img src="/images/game_2_cover.jpg" alt="게임 이미지 2"></img>
+                    <img src="/images/game_2_cover.jpg" alt="eureka! superconductor lab" title="Eureka! Superconductor Lab"></img>
                 </div>
                 <p>유레카! 초전도체 연구소</p>
             </div>
