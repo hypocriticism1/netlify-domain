@@ -12,8 +12,8 @@ export default function Home() {
       <main>
 <html>
     <head>
-        <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square.css" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="mainstyle.css"/>
+        <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square.css" rel="stylesheet"></link>
+        <link rel="stylesheet" type="text/css" href="mainstyle.css"></link>
     </head>
     <div>
         <img class="homepageart" src="homepageart.jpg" style="width:100%; height:auto;">
