@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
+import mainstyles from './mainstyle.css'
 
 export default function Home() {
   return (
@@ -9,7 +10,6 @@ export default function Home() {
         <title>고물이의 게임공장</title>
         <link rel="icon" href="/favicon.ico" />
         <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square.css" rel="stylesheet"></link>
-        <link rel="stylesheet" type="text/css" href="mainstyle.css"></link>
       </Head>
       <main>
         <div class="homepageart">
