@@ -15,9 +15,6 @@ export default function Home() {
         <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square.css" rel="stylesheet"></link>
         <link rel="stylesheet" type="text/css" href="mainstyle.css"></link>
     </head>
-    <div>
-        <img class="homepageart" src="homepageart.jpg" style="width:100%; height:auto;"></img>
-    </div>
 </html>
       </main>
     
