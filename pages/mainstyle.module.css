@@ -72,6 +72,19 @@ div.gamecontent>div>p{
     font-size: 30px;
 }
 
+div.gamecontent>div>a>p
+{
+    font-family: 'NanumSquareBold';
+    font-size: 30px;
+}
+
+div.gamecontent>div>div>a>img
+{
+    width: 100%;
+    height: auto;
+    padding-bottom: 2px;
+}
+
 div.gamecontent>div>div>img
 {
     width: 100%;
