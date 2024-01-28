@@ -74,21 +74,30 @@ div.gamecontent>div>p{
     font-size: 30px;
 }
 
-@media(max-width: 768px){
-    .gamecontent {
-        display:block;
-        padding-top: 10px;
-    }
-    div.gamecontent>div>p{
-        padding-bottom: 25px;
-    }
-}
-
 div.gamecontent>div>a>p
 {
     font-family: 'NanumSquareBold';
     font-size: 30px;
 }
+
+@media(max-width: 768px){
+    .gamecontent {
+        display:block;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 10px;
+    }
+    div.gamecontent>div>p{
+        padding-bottom: 25px;
+        font-size: 20px;
+    }
+    div.gamecontent>div>a>p{
+        padding-bottom: 25px;
+        font-size: 20px;
+    }
+}
+
+
 
 div.gamecontent>div>div>a>img
 {
