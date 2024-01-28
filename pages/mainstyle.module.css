@@ -38,6 +38,8 @@
     color: black;
     text-align:center;
     font-family: 'NanumSquare';
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .gomulilinks>p
