@@ -8,7 +8,7 @@ export default function Home() {
     <div>
       <Head>
         <title>고물이의 게임공장</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/gomulyicon.ico" />
         <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square.css" rel="stylesheet"></link>
       </Head>
       <main>
@@ -81,7 +81,7 @@ export default function Home() {
                 <div>
                     <img src="/images/underconstruction.jpg" alt="게임 이미지 9"></img>
                 </div>
-                <p>미정</p>
+                <p>상남자의 탑라인전</p>
             </div>
         </div>
       </main>
