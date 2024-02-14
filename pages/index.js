@@ -37,9 +37,11 @@ export default function Home() {
             </div>
             <div>
                 <div>
+                    <a href="https://store.steampowered.com/app/2811850/Eureka_Superconductor_Lab/" target="_blank">
                     <img src="/images/game_2_cover_2.png" alt="eureka! superconductor lab" title="Eureka! Superconductor Lab"></img>
+                    </a>
                 </div>
-                <p>유레카! 초전도체 연구소</p>
+                <a href="https://store.steampowered.com/app/2811850/Eureka_Superconductor_Lab/" target="_blank"><p>유레카! 초전도체 연구소</p></a>
             </div>
             <div>
                 <div>
