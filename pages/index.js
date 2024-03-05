@@ -51,7 +51,7 @@ export default function Home() {
             </div>
             <div>
                 <div>
-                    <img src="/images/underconstruction.jpg" alt="게임 이미지 4"></img>
+                    <img src="/images/game_4_cover.jpg" alt="ViewTube Algorithm Adventure"></img>
                 </div>
                 <p>뷰튜브 알고리즘 탐험</p>
             </div>
