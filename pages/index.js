@@ -5,17 +5,6 @@ import mainstyles from './mainstyle.module.css'
 
 export default function Home() {
   return (
-    <head>
-      <!-- Google tag (gtag.js) -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11431315721"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-      
-        gtag('config', 'AW-11431315721');
-      </script>
-    </head>
     
     <div>
       <Head>
