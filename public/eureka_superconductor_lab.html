@@ -80,9 +80,17 @@
             width: 100%; /* 모바일에서는 이미지가 전체 너비를 차지합니다. */
             max-width: 768px; /* 이미지 최대 너비를 제한합니다. */
         }
+        .trailer iframe{
+            width = "560";
+            height = "315";
+        }
         @media (min-width: 769px) {
             .screenshots img {
                 width: 30%; /* 데스크탑에서는 이미지가 너비의 30%만 차지하도록 설정합니다. */
+            }
+            .trailer iframe{
+                width = 100%;
+                margin: 0 5px;
             }
         }
     </style>
@@ -94,7 +102,9 @@
     
     <section>
         <h2>Trailer</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/CH0rhGsvTZE?si=SpgmlnRoRMbXyp83" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="trailer">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/CH0rhGsvTZE?si=SpgmlnRoRMbXyp83" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
     </section>
     
     <section>
