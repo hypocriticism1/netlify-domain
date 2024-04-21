@@ -3,6 +3,13 @@ import Header from '@components/Header'
 import Footer from '@components/Footer'
 import mainstyles from './mainstyle.module.css'
 
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'AW-11431315721');
+
 export default function Home() {
   return (
     <div>
