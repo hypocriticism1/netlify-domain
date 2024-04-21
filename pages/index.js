@@ -7,15 +7,6 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11431315721">
-        </script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments)}
-          gtag('js', new Date());
-        
-          gtag('config', 'AW-11431315721');
-        </script>
         <title>고물이의 게임공장</title>
         <link rel="icon" href="/gomulyicon.ico" />
         <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square.css" rel="stylesheet">
