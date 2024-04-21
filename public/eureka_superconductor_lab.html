@@ -32,7 +32,13 @@
         }
         header img, footer img {
             width: 80%; /* 로고와 스팀 링크 이미지 너비 조정 */
-            max-width: 768px; /* 최대 너비 설정 */
+        }
+        .steamlinks{
+            width: 60%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
         }
         .screenshots {
             display: flex;
@@ -59,16 +65,18 @@
     </header>
 
     <section>
-        <p>Discover the next generation of superconductors in our new game, "Eureka! Superconductor Lab". Dive into a world where science meets innovation, and every challenge leads to a breakthrough!</p>
+        <p style="text_align: center">Discover the next generation of superconductors in our new game, "Eureka! Superconductor Lab". Dive into a world where science meets innovation, and every challenge leads to a breakthrough!</p>
     </section>
     <section>
-        <a href="https://store.steampowered.com/app/2811850" target="_blank">
-            <img src="images/esl/wishlistlogo.png" alt="Visit Us on Steam" style="width: 100px;">
-        </a>
+        <div class="steamlinks">
+            <a href="https://store.steampowered.com/app/2811850" target="_blank">
+                <img src="images/esl/wishlistlogo.png" alt="Visit Us on Steam" style="width: 100px;">
+            </a>
+        </div>
     </section>
     
     <section>
-        <h2>Screenshots</h2>
+        <h2 style="text_align: center">Screenshots</h2>
         <div class="screenshots">
             <img src="images/esl/ESL screenshot 1.jpg" alt="Screenshot 1">
             <img src="images/esl/ESL screenshot 2.jpg" alt="Screenshot 2">
