@@ -17,6 +17,37 @@
     <style>
         body {
             background-color: #f0f0f0; /* 연한 회색 */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header, footer {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+        }
+        header img, footer img {
+            width: 80%; /* 로고와 스팀 링크 이미지 너비 조정 */
+            max-width: 768px; /* 최대 너비 설정 */
+        }
+        .screenshots {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+        .screenshots img {
+            width: 100%; /* 모바일에서는 이미지가 전체 너비를 차지합니다. */
+            max-width: 768px; /* 이미지 최대 너비를 제한합니다. */
+        }
+        @media (min-width: 769px) {
+            .screenshots img {
+                width: 30%; /* 데스크탑에서는 이미지가 너비의 30%만 차지하도록 설정합니다. */
+            }
         }
     </style>
 </head>
@@ -33,19 +64,19 @@
 
     <section>
         <h2>Screenshots</h2>
-        <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-            <!-- Placeholder images for screenshots -->
-            <img src="images/esl/ESL screenshot 1.jpg" alt="Screenshot 1" style="width: 30%;">
-            <img src="images/esl/ESL screenshot 2.jpg" alt="Screenshot 2" style="width: 30%;">
-            <img src="images/esl/ESL screenshot 10.jpg" alt="Screenshot 3" style="width: 30%;">
-            <img src="images/esl/ESL screenshot 4.jpg" alt="Screenshot 4" style="width: 30%;">
-            <img src="images/esl/ESL screenshot 5.jpg" alt="Screenshot 5" style="width: 30%;">
-            <img src="images/esl/ESL screenshot 6.jpg" alt="Screenshot 6" style="width: 30%;">
-            <img src="images/esl/ESL screenshot 7.jpg" alt="Screenshot 7" style="width: 30%;">
-            <img src="images/esl/ESL screenshot 8.jpg" alt="Screenshot 8" style="width: 30%;">
-            <img src="images/esl/ESL screenshot 9.jpg" alt="Screenshot 9" style="width: 30%;">
+        <div class="screenshots">
+            <img src="images/esl/ESL screenshot 1.jpg" alt="Screenshot 1">
+            <img src="images/esl/ESL screenshot 2.jpg" alt="Screenshot 2">
+            <img src="images/esl/ESL screenshot 10.jpg" alt="Screenshot 3">
+            <img src="images/esl/ESL screenshot 4.jpg" alt="Screenshot 4">
+            <img src="images/esl/ESL screenshot 5.jpg" alt="Screenshot 5">
+            <img src="images/esl/ESL screenshot 6.jpg" alt="Screenshot 6">
+            <img src="images/esl/ESL screenshot 7.jpg" alt="Screenshot 7">
+            <img src="images/esl/ESL screenshot 8.jpg" alt="Screenshot 8">
+            <img src="images/esl/ESL screenshot 9.jpg" alt="Screenshot 9">
         </div>
     </section>
+    
     <footer>
         <a href="https://store.steampowered.com/app/2811850" target="_blank">
             <img src="images/esl/ESL screenshot 1.jpg" alt="Visit Us on Steam" style="width: 100px;">
